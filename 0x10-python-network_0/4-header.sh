@@ -1,3 +1,3 @@
 #!/bin/bash
-# takes url, sends a GET request, displays response body, and the req is sent with a variable 
-curl -sLX GET -H "X-School-User-Id: 98" "$1"
+# Script that takes an URL and displays the body of the response
+curl -s "$1" -H "X-HelloSchool!-User-Id: 98"
